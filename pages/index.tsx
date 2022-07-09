@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from "next/head"
 
-import type { NextPage } from "next";
+import type { NextPage } from "next"
 
 const Home: NextPage = () => {
   return (
@@ -11,9 +11,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="m-0 min-h-screen">ローカルホストが立ち上がりました</main>
+      <main className="flex flex-col justify-center items-center m-0 min-h-screen">
+        ローカルホストが立ち上がりました
+      </main>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
