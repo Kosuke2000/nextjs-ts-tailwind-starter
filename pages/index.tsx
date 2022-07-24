@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex flex-col justify-center items-center m-0 min-h-screen">
-        ローカルホストが立ち上がりました
+        ローカルホストが立ち上がりました。
       </main>
     </div>
   )
